@@ -1,0 +1,10 @@
+body {
+    background-color: darkslateblue;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 5fr 3fr 2fr minmax(300px, 700px) 2fr 3fr 5fr;
+    max-width: 1000px;
+    margin: auto;
+}
